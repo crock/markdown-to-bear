@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "markdown-to-bear",
+  "description": "Convert a directory of markdown files to Bear/Panda note format and vice versa.",
+  "version": "1.0.0+1",
+  "author": {
+    "name": "Alex Crocker",
+    "email": "hello@crock.dev"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crock/markdown-to-bear.git"
+  },
+  "directories": {
+    "lib": "./scripts/"
+  },
+  "bin": {
+    "markdown-to-bear": "./scripts/markdown-to-bear.js",
+    "bear-to-markdown": "./scripts/bear-to-markdown.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.27.2",
+    "slugify": "^1.6.5"
+  }
+}

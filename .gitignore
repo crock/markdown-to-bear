@@ -1,0 +1,11 @@
+# NPM dependencies
+node_modules
+
+# input/output directories
+converted-bear-notes
+converted-panda-notes
+tmp-notes
+notes
+
+# useless macOS file
+.DS_Store
