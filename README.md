@@ -1,7 +1,7 @@
 # Markdown to Bear App Converter
 
-![](https://img.shields.io/badge/version-1.0.2-green)
-![](https://img.shields.io/badge/build-3-green)
+![](https://img.shields.io/badge/version-1.0.3-green)
+![](https://img.shields.io/badge/build-4-green)
 
 Convert a directory of markdown files to Bear/Panda note format and vice versa.
 

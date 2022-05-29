@@ -32,8 +32,7 @@ var bearNoteInfo = {
     "version": 2
 }
 
-console.log(args)
-var directory = args.length >= 2 ? path.resolve(args[1]) : process.cwd()
+var directory = args.length > 2 ? path.resolve(args[2]) : process.cwd()
 var notesDir = path.join(process.cwd(), `converted-${appName}-notes`)
 var tmpDir = path.resolve(`${process.cwd()}/tmp-notes`)
 
