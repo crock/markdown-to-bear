@@ -1,9 +1,10 @@
-var fs = require('fs')
-var process = require('process')
-var path = require('path')
-var AdmZip = require('adm-zip')
-var slugify = require('slugify')
-var axios = require('axios')
+#!/usr/bin/env node
+var fs = require('fs');
+var path = require('path');
+var process = require('process');
+var AdmZip = require('adm-zip');
+var slugify = require('slugify');
+var axios = require('axios');
 var stream = require('stream');
 var { promisify } = require('util');
 
@@ -31,6 +32,7 @@ var bearNoteInfo = {
     "version": 2
 }
 
+console.log(args)
 var directory = args.length >= 2 ? path.resolve(args[1]) : process.cwd()
 var notesDir = path.join(process.cwd(), `converted-${appName}-notes`)
 var tmpDir = path.resolve(`${process.cwd()}/tmp-notes`)
