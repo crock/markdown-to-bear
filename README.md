@@ -5,17 +5,29 @@
 
 Convert a directory of markdown files to Bear/Panda note format and vice versa.
 
-## Markdown -> Bear
+## Installation
+
+```bash
+npm i -g markdown-to-bear
+```
+or
+```
+yarn global add markdown-to-bear
+```
+
+## Usage
+
+#### Markdown -> Bear
 ```bash
 markdown-to-bear [directory]
 ```
 
-## Markdown -> Panda (Bear Beta)
+#### Markdown -> Panda (Bear Beta)
 ```bash
 markdown-to-bear [directory] --panda
 ```
 
-## Bear/Panda to Markdown
+#### Bear/Panda to Markdown
 ```bash
 bear-to-markdown [directory]
 ```

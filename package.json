@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "name": "markdown-to-bear",
   "description": "Convert a directory of markdown files to Bear/Panda note format and vice versa.",
   "version": "1.0.0+1",
