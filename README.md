@@ -31,3 +31,11 @@ markdown-to-bear [directory] --panda
 ```bash
 bear-to-markdown [directory]
 ```
+
+## Demo
+
+```bash
+$ markdown-to-bear notes
+Downloading sniper-war.jpeg...
+Created Bear Note: find-lists-expiring-domain-names.bearnote
+```
